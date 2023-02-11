@@ -1,0 +1,104 @@
+@font-face {
+	font-family: "Space Grotesk";
+	font-display: swap;
+	src: url("/fonts/SpaceGrotesk-Var.woff2") format("woff2");
+	font-weight: 300 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Inter";
+	font-display: swap;
+	src: url("/fonts/Inter-Var.woff2") format("woff2");
+	font-weight: 100 900;
+	font-style: oblique -10deg 0deg;
+}
+
+@tailwind base;
+
+@layer base {
+	img {
+	  @apply inline-block;
+	}
+ }
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.w-fill {
+		width: stretch;
+	}
+	.min-w-fill {
+		min-width: stretch;
+	}
+	.max-w-fill {
+		max-width: stretch;
+	}
+	.h-fill {
+		height: stretch;
+	}
+	.min-h-fill {
+		min-height: stretch;
+	}
+	.max-h-fill {
+		max-height: stretch;
+	}
+
+	.text-d1,
+	.text-d1-mobile,
+	.text-d2,
+	.text-d2-mobile,
+	h1,
+	.text-h1,
+	.text-h1-mobile,
+	h2,
+	.text-h2,
+	.text-h2-mobile,
+	h3,
+	.text-h3,
+	.text-h3-mobile,
+	h4,
+	.text-h4,
+	.text-h4-mobile,
+	h5,
+	.text-h5,
+	.text-h5-mobile,
+	h6,
+	.text-h6,
+	.text-h6-mobile,
+	.text-sub-heading,
+	.text-sub-heading-mobile,
+	button,
+	.text-button,
+	.text-button-md,
+	.text-button-sm {
+		@apply font-space;
+	}
+
+	.scrollbar-hidden::-webkit-scrollbar {
+		@apply hidden;
+	}
+}
+
+@media screen and (min-width: 835px) {
+	/* Width */
+	::-webkit-scrollbar {
+		@apply w-1 h-1;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		@apply bg-black;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		@apply bg-white;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		@apply bg-yellow;
+	}
+}
