@@ -1,4 +1,4 @@
-import { gql } from "graphql-request";
+// import { gql } from "graphql-request";
 
 import { WigglyStars } from "./WigglyStars";
 import { AboutSection } from "../components/sections/About";
@@ -6,26 +6,24 @@ import { CTA } from "../components/sections/CTA";
 import { Section } from "../components/Section";
 import { Container } from "../components/Container";
 import { Smiley } from "../components/Smiley";
-import { ProjectCard } from "../components/ProjectCard";
-import { hygraph } from "../lib/hygraph";
 
-const QUERY = gql`
-	{
-		Events {
-			id
-			title
-			href
-			link
-			image
-		}
-	}
-`;
+// const QUERY = gql`
+// 	{
+// 		Events {
+// 			id
+// 			title
+// 			href
+// 			link
+// 			image
+// 		}
+// 	}
+// `;
 
-async function getProjects() {
-	const { projects } = await hygraph.request(QUERY);
+// async function getProjects() {
+// 	const { projects } = await hygraph.request(QUERY);
 
-	return projects;
-}
+// 	return projects;
+// }
 
 const Home = async () => {
 	// const projects: Omit<Project, "description">[] = await getProjects();
