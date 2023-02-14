@@ -32,6 +32,18 @@ const links = [
 		label: "contact",
 		type: "link",
 	},
+  {
+  id: "events",
+      href: "/events",
+      label: "events",
+      type: "link",
+  },
+  {
+		id: "spotify",
+		href: "/spotify",
+		label: "spotify",
+		type: "link",
+	},
 	{
 		id: "music-stats",
 		href: "/music-stats",
