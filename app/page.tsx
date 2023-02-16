@@ -30,7 +30,7 @@ const Home = async () => {
 	return (
 		<>
 			<section className="flex flex-row gap-20">
-				<main className="relative mx-auto max-w-8xl py-16 px-8 md:py-32 md:px-16">
+				<main className="relative mx-auto max-w-8xl py-16 px-8 md:py-10 md:px-16">
 					<h1 className="text-h1-mobile md:text-d1-mobile xl:text-d1">
 						Sattva&apos;23 <br className="hidden md:inline" />
 						<span className="text-yellow">/</span> Safarnama
