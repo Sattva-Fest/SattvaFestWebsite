@@ -29,8 +29,8 @@ const Home = async () => {
 
 	return (
 		<>
-			<section className="flex flex-row gap-20">
-				<main className="relative mx-auto max-w-8xl py-16 px-8 md:py-10 md:px-16">
+			<section className="flex flex-row gap-15">
+				<main className="relative mx-auto max-w-8xl py-16 px-8 md:py-14 md:px-16">
 					<h1 className="text-h1-mobile md:text-d1-mobile xl:text-d1">
 						Sattva&apos;23 <br className="hidden md:inline" />
 						<span className="text-yellow">/</span> Safarnama
@@ -42,7 +42,7 @@ const Home = async () => {
 						Mark your calendars and save the dates, Sattva 2023 is on the 21st, 22nd, and 23rd of Feb &apos;23, and this is your beckoning to come be a part of this cultural extravaganza!
 					</p>
 				</main>
-				<Image src="/images/Sattva-Logo-Web.png" alt="Sattva-Logo" height={1000} width={1000} className="h-96 w-96 p-0 m-0 mt-10 ml-2" />
+				<Image src="/images/Sattva-Logo-Web.png" alt="Sattva-Logo" height={1920} width={1920} className="h-[50ch] w-[50ch] p-0 m-0 ml-2" />
 			</section>
 			<AboutSection />
 			<Section className="bg-green">

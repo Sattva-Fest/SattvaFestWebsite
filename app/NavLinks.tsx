@@ -21,12 +21,6 @@ const links = [
 		type: "link",
 	},
 	{
-		id: "work",
-		href: "/work",
-		label: "work",
-		type: "link",
-	},
-	{
 		id: "contact",
 		href: "/contact",
 		label: "contact",
@@ -171,8 +165,8 @@ export const NavLinks = ({
 				})}
 			</motion.ul>
 			{(!menuOpen || !isMobile) && (
-				<Button as={Link} href={"/music-stats"}>
-					Music-Stats ↗
+				<Button as={Link} href={"/events"}>
+					Events ↗
 				</Button>
 			)}
 			<div
