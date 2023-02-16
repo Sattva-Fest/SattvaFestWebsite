@@ -4,9 +4,6 @@ import { ComponentProps } from "react";
 import { Section } from "../../Section";
 import { Container } from "../../Container";
 import { Hourglass } from "../../Hourglass";
-import NowPlaying from "../../NowPlaying/NowPlaying";
-
-import me from "../../../public/images/poly-me.png";
 
 export const AboutSection = ({
 	standAlone = false,
