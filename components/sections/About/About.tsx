@@ -48,12 +48,10 @@ export const AboutSection = ({
 							About us
 						</h2>
 						<p className="text-body xl:max-w-[680px]">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non neque aliquet, rutrum magna ut, gravida risus. Vivamus sed ipsum.
+						An apparently mundane auto rickshaw can take us places and be instrumental in experiences that will be latched onto our minds forever, and the simple activity of listening to music can open up our prospects for thrill and adventure...
 						</p>
-
-						<p className="text-body xl:max-w-[680px]">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non neque aliquet, rutrum magna ut, gravida risus. Vivamus sed ipsum.
-						</p>
+						<p className="text-body xl:max-w-[680px]">We're redefining normalcy, and we're thrilled to have you along on the ride…</p>
+						<p className="text-body xl:max-w-[680px]">This is Safarnama with Sattva 2023, and we're just getting started!</p>
 					</div>
 					{/* {!standAlone && <NowPlaying />} */}
 				</div>

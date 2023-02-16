@@ -46,7 +46,10 @@ export const CTA = () => {
 						Let&apos;s have fun together
 					</h2>
 					<p className="text-body xl:max-w-[680px]">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non neque aliquet, rutrum magna ut, gravida risus. Vivamus sed ipsum.
+					3 days of excitement you do not want to miss out on…
+					</p>
+					<p className="text-body xl:max-w-[680px]">
+					Stay connected with us:
 					</p>
 				</div>
 				<div className="flex items-center space-x-4 py-0.5">
