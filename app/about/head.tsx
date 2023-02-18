@@ -5,8 +5,8 @@ const meta = {
 	title: "Sattva`23 Safarnama - About me",
 	description:
 		"I design and develop engaging websites and delightful digital experiences.",
-	url: "http://localhost:3000/about",
-	image: "http://localhost:3000/images/og-image.png",
+	url: "https://sattva23.space/about",
+	image: "https://sattva23.space/images/og-image.png",
 };
 
 export default function AboutHead() {

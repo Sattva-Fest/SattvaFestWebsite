@@ -4,16 +4,16 @@ function generateSiteMap() {
   return `<?xml version="1.0" encoding="UTF-8"?>
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <url>
-       <loc>http://localhost:3000</loc>
+       <loc>https://sattva23.space</loc>
      </url>
      <url>
-       <loc>http://localhost:3000/about</loc>
+       <loc>https://sattva23.space/about</loc>
      </url>
      <url>
-       <loc>http://localhost:3000/contact</loc>
+       <loc>https://sattva23.space/contact</loc>
      </url>
      <url>
-       <loc>http://localhost:3000/events</loc>
+       <loc>https://sattva23.space/events</loc>
      </url>
    </urlset>
  `;
