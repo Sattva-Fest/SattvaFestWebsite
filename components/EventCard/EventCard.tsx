@@ -13,7 +13,7 @@ export const EventCard = ({ title, href, link, image }: EventCardProps) => {
 		<div className="space-y-8 md:space-y-[26px]">
 			<Link
 				href={href}
-				className="relative inline-block aspect-video h-[150px] w-[150px] cursor-pointer border-2 bg-black drop-shadow-brutal md:h-[320px] md:w-[320px] xl:drop-shadow-brutal-lg"
+				className="relative inline-block aspect-video h-[250px] w-[250px] cursor-pointer border-2 bg-black drop-shadow-brutal md:h-[320px] md:w-[320px] xl:drop-shadow-brutal-lg"
 			>
 				<Image
 					src={image}
