@@ -8,24 +8,6 @@ export const Footer = () => {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://dribbble.com/"
-						>
-							Dr
-						</a>
-					</li>
-					<li>
-						<a
-							target="_blank"
-							rel="noreferrer"
-							href="https://twitter.com/"
-						>
-							Tw
-						</a>
-					</li>
-					<li>
-						<a
-							target="_blank"
-							rel="noreferrer"
 							href="https://instagram.com/"
 						>
 							Ig

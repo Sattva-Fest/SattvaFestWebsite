@@ -5,31 +5,30 @@ import { Section } from "../../Section";
 import { Container } from "../../Container";
 import { Hourglass } from "../../Hourglass";
 
+import me from "../../../public/Sattva_Logo.png";
+
+
 export const AboutSection = ({
 	standAlone = false,
 	...props
 }: ComponentProps<typeof Section> & { standAlone?: boolean }) => {
-	const experienceYears =
-		new Date().getFullYear() - new Date(2018, 10).getFullYear();
-
 	return (
 		<Section {...props}>
-			<Container className="md:relative md:space-y-0">
+			<Container className="md:relative md:space-y-0 md:py-10">
 				<div
 					className={`flex justify-center md:absolute md:right-16 xl:right-32 ${standAlone ? " md:top-32 md:rotate-12" : "md:-top-16"
 						}`}
 				>
 					<Hourglass>
-						<span className="absolute inset-0 left-4 overflow-hidden border-b-2">
-							{/* <Image
+						<span className="absolute inset-0 overflow-hidden justify-center flex items-center">
+							<Image
 								src={me}
 								layout={"fill"}
 								quality={100}
 								priority
-								objectPosition={"top left"}
 								objectFit={"cover"}
 								alt={"My profile picture"}
-							/> */}
+							/>
 						</span>
 					</Hourglass>
 				</div>

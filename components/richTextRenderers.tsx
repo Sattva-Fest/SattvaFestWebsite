@@ -98,20 +98,13 @@ const csBodyRenderers: NodeRendererType = {
 			);
 		},
 	},
-	embed: {
-		CsOverline: ({ content }) => (
-			<span className="col-span-5 mb-8 inline-block text-sub-heading-mobile text-yellow xl:col-span-3 xl:col-start-2">
-				{content}
-			</span>
-		),
-	},
 };
 
 export const renderers = (
-	type: "project" | "csBody" | "csIntro"
+	type: "event" | "csBody" | "csIntro"
 ): NodeRendererType => {
 	switch (type) {
-		case "project":
+		case "event":
 			return commonRenderers;
 		case "csIntro":
 			return { ...commonRenderers, ...csIntroRenderers };

@@ -1,32 +1,20 @@
-// import { gql } from "graphql-request";
+import { gql } from "graphql-request";
 import { AboutSection } from "../components/sections/About";
 import { CTA } from "../components/sections/CTA";
 import { Section } from "../components/Section";
 import { Container } from "../components/Container";
 import { Smiley } from "../components/Smiley";
 import Image from "next/image"
+// import { hygraph } from "../lib/hygraph";
+import { EventCard } from "../components/EventCard/EventCard";
+import { type Event } from "./events/page";
+import {events} from "../lib/events";
 
-// const QUERY = gql`
-// 	{
-// 		Events {
-// 			id
-// 			title
-// 			href
-// 			link
-// 			image
-// 		}
-// 	}
-// `;
-
-// async function getProjects() {
-// 	const { projects } = await hygraph.request(QUERY);
-
-// 	return projects;
-// }
+async function getEvents() {
+	return events;
+}
 
 const Home = async () => {
-	// const projects: Omit<Project, "description">[] = await getProjects();
-
 	return (
 		<>
 			<section className="flex lg:flex-row lg:gap-15 flex-col gap-2">
@@ -62,14 +50,14 @@ const Home = async () => {
 					</div>
 					<div className="relative">
 						<ul className="scrollbar-hidden snap -mx-8 flex snap-x flex-nowrap overflow-x-scroll md:-mx-16 xl:mx-0 xl:space-x-16">
-							{/* {projects.map(({ id, ...props }) => (
+							{events.map(({ id, ...props }) => (
 								<li
 									key={id}
 									className="flex-initial snap-start pl-8 last:pr-8 md:pl-16 md:last:pr-16 xl:p-0"
 								>
-									<ProjectCard {...props} />
+									<EventCard {...props} />
 								</li>
-							))} */}
+							))}
 						</ul>
 						<span className="absolute top-0 right-0 bottom-0 hidden w-32 bg-gradient-to-r from-green/0 to-green xl:block"></span>
 					</div>

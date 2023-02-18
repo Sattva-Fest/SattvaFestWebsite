@@ -38,3 +38,15 @@ export type TopTracks = {
 export type TopArtists = {
 	artists: Artist[];
 };
+
+export interface Event {
+	id: string;
+	title: string;
+	day: number;
+	href: string;
+	link: string;
+	image: string;
+	description: string;
+	categories: string;
+	color: string;
+}

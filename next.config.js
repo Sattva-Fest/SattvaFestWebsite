@@ -6,7 +6,7 @@ const nextConfig = {
 	},
 	swcMinify: true,
 	images: {
-		domains: ["sattva23.space", "media.graphassets.com", "i.scdn.co"],
+		domains: ["sattva23.space", "media.graphassets.com", "i.scdn.co", "ik.imagekit.io"],
 	},
 };
 

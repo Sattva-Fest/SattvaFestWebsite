@@ -24,7 +24,7 @@ export default async function RootLayout({
 				<div className="relative z-[1] mb-[58.25px] bg-black">
 					{children}
 				</div>
-				{process.env.NODE_ENV === "production" && <Analytics />}
+				<Analytics />
 				<Footer />
 			</body>
 		</html>
