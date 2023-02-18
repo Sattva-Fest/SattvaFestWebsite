@@ -6,7 +6,7 @@ export const Section = ({
 	className = "",
 }: ComponentProps<"section">) => {
 	return (
-		<section className={twMerge("bg-orange text-black", className)}>
+		<section className={twMerge("bg-orange text-black p-10", className)}>
 			{children}
 		</section>
 	);

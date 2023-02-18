@@ -27,9 +27,9 @@ const links = [
 		type: "link",
 	},
 	{
-		id: "music-stats",
-		href: "/music-stats",
-		label: "Music-Stats",
+		id: "event",
+		href: "/events",
+		label: "Events",
 		type: "button",
 	},
 ];

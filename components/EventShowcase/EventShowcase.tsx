@@ -95,7 +95,7 @@ const EventDetails = ({
 	return (
 		<div
 			className={`relative z-[1] space-y-4 border-2 border-t border-dashed ${colorMap[color] ?? "bg-lilla"
-				} p-4 drop-shadow-brutal max-md:[border-top:1px_solid_black] md:z-auto md:col-span-2 md:space-y-6 md:border-t-2 md:drop-shadow-brutal-lg md:max-lg:[border-right:1px_solid_black] xl:sticky xl:top-[152px] xl:border-r-2 xl:p-8`}
+				} p-4 drop-shadow-brutal max-md:[border-top:1px_solid_black] md:z-auto md:col-span-2 md:space-y-6 md:border-t-2 md:drop-shadow-brutal-lg md:max-lg:[border-right:1px_solid_black] xl:sticky xl:top-[100px] xl:border-r-2 xl:p-14`}
 		>
 			<h3 className="text-h4-mobile md:text-sub-heading xl:text-h4">
 				{title}
@@ -148,7 +148,7 @@ const EventImage = ({
 	const isMobile = useIsMobile();
 
 	return (
-		<div className="relative order-first md:order-none md:col-span-3 md:mb-0 md:h-full xl:h-auto xl:w-full">
+		<div className="relative order-first md:order-none md:col-span-3 md:mb-0 md:h-full xl:h-full xl:w-full">
 			<span className="absolute top-0 left-0 w-min -translate-y-full bg-black text-body text-white max-md:px-2 md:-translate-x-full md:-translate-y-0 md:scale-[-1] md:py-2 md:[writing-mode:vertical-lr]">
 				{day}
 			</span>
@@ -157,10 +157,11 @@ const EventImage = ({
 					<VisitButton href={href} />
 				</span>
 			)}
-			<span className="md:aspect-none relative flex aspect-video w-full items-center justify-center border-2 border-b bg-black drop-shadow-brutal md:h-full md:border-b-2 md:border-l md:drop-shadow-brutal-lg xl:aspect-video xl:h-auto xl:border-l-2">
+			<span className="md:aspect-none relative flex aspect-video w-full h-fit items-center justify-center border-2 border-b bg-black drop-shadow-brutal md:h-full md:border-b-2 md:border-l md:drop-shadow-brutal-lg xl:aspect-video xl:h-full xl:border-l-2">
 				<Image
 					src={image}
 					layout={"fill"}
+					// objectFit={"contain"}
 					quality={100}
 					alt={`${title} website screenshot`}
 					title={`${title} website screenshot`}

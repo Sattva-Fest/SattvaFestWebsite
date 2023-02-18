@@ -8,9 +8,27 @@ export const Footer = () => {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://instagram.com/"
+							href="https://instagram.com/sattva.2023"
 						>
 							Ig
+						</a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://www.facebook.com/sattvafest"
+						>
+							Fa
+						</a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noreferrer"
+							href="https://www.youtube.com/@mpstmessattva1974/streams"
+						>
+							YT
 						</a>
 					</li>
 				</ul>
