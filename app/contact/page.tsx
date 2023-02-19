@@ -3,8 +3,8 @@ import Image from "next/image";
 import { CTA } from "../../components/sections/CTA";
 
 import igLogo from "../../public/images/igLogo.png";
-import twLogo from "../../public/images/twLogo.svg";
-import drLogo from "../../public/images/drLogo.svg";
+import { FaYoutube } from "react-icons/fa";
+import { BsFacebook } from "react-icons/bs";
 
 const ContactPage = () => {
 	return (
@@ -14,12 +14,12 @@ const ContactPage = () => {
 					<div className="space-y-16">
 						<div className="space-y-8">
 							<h1 className="text-h1-mobile md:text-d1-mobile xl:text-d1">
-								My @s
+								Our @s
 							</h1>
 							<p className="text-body xl:max-w-[680px]">
-								You can find me pretty much anywhere by typing in my
-								name. But just in case here you can find a few links to
-								my social platforms.
+								Let&apos;s have fun together
+								3 days of excitement you do not want to miss out on…
+								Stay connected with us:
 							</p>
 						</div>
 						<div className="flex items-center space-x-6 py-0.5 font-space md:space-x-12">
@@ -50,20 +50,12 @@ const ContactPage = () => {
 						</div>
 					</div>
 					<div className="mr-8 hidden origin-center rotate-12 flex-col items-center space-y-20 xl:flex">
-						<Image
-							alt="Dribbble logo"
+						<FaYoutube
 							className="origin-center -rotate-12"
-							src={drLogo}
-							width={100}
-							loading="eager"
 						/>
 						<div className="flex space-x-[100px]">
-							<Image
-								alt="Twitter logo"
+							<BsFacebook
 								className="origin-center -rotate-12"
-								src={twLogo}
-								width={100}
-								loading="eager"
 							/>
 							<Image
 								alt="Instagram logo"
