@@ -78,6 +78,8 @@ module.exports = {
 			instagram: "#E4405F",
 			dribbble: "#EA4C89",
 			twitter: "#1DA1F2",
+			facebook: "#3B5998",
+			youtube: "#FF0000",
 			spotify: {
 				brand: "#1ED760",
 				pink: "#F774C4",

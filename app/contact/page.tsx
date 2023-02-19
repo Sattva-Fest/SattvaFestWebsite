@@ -35,17 +35,17 @@ const ContactPage = () => {
 								href="https://dribbble.com/"
 								target="_blank"
 								rel="noreferrer"
-								className="text-body font-semibold transition hover:text-dribbble md:text-sub-heading-mobile xl:text-sub-heading"
+								className="text-body font-semibold transition hover:text-facebook md:text-sub-heading-mobile xl:text-sub-heading"
 							>
-								Dribbble <span className="text-dribbble">↗</span>
+								FaceBook <span className="text-facebook">↗</span>
 							</a>
 							<a
 								href="https://twitter.com/"
 								target="_blank"
 								rel="noreferrer"
-								className="text-body font-semibold transition hover:text-twitter md:text-sub-heading-mobile xl:text-sub-heading"
+								className="text-body font-semibold transition hover:text-youtube md:text-sub-heading-mobile xl:text-sub-heading"
 							>
-								Twitter <span className="text-twitter">↗</span>
+								YouTube <span className="text-youtube">↗</span>
 							</a>
 						</div>
 					</div>
