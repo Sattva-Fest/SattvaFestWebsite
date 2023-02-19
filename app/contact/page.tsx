@@ -51,11 +51,12 @@ const ContactPage = () => {
 					</div>
 					<div className="mr-8 hidden origin-center rotate-12 flex-col items-center space-y-20 xl:flex">
 						<FaYoutube
-							className="origin-center -rotate-12"
+							size={100} color="#ff0000"
+							className="origin-center -rotate-12 rounded-xl"
 						/>
 						<div className="flex space-x-[100px]">
-							<BsFacebook
-								className="origin-center -rotate-12"
+							<BsFacebook size={100} color="#3b5998" 
+								className="origin-center -rotate-12 text-facebook rounded-xl"
 							/>
 							<Image
 								alt="Instagram logo"
