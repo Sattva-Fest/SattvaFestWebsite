@@ -24,7 +24,7 @@ const ContactPage = () => {
 						</div>
 						<div className="flex items-center space-x-6 py-0.5 font-space md:space-x-12">
 							<a
-								href="https://instagram.com/"
+								href="https://instagram.com/sattva.2023"
 								target="_blank"
 								rel="noreferrer"
 								className="text-body font-semibold transition hover:text-instagram md:text-sub-heading-mobile xl:text-sub-heading"
@@ -32,7 +32,7 @@ const ContactPage = () => {
 								Instagram <span className="text-instagram">↗</span>
 							</a>
 							<a
-								href="https://dribbble.com/"
+								href="https://www.facebook.com/sattvafest"
 								target="_blank"
 								rel="noreferrer"
 								className="text-body font-semibold transition hover:text-facebook md:text-sub-heading-mobile xl:text-sub-heading"
@@ -40,7 +40,7 @@ const ContactPage = () => {
 								FaceBook <span className="text-facebook">↗</span>
 							</a>
 							<a
-								href="https://twitter.com/"
+								href="https://www.youtube.com/@mpstmessattva1974/streams"
 								target="_blank"
 								rel="noreferrer"
 								className="text-body font-semibold transition hover:text-youtube md:text-sub-heading-mobile xl:text-sub-heading"
@@ -55,7 +55,7 @@ const ContactPage = () => {
 							className="origin-center -rotate-12 rounded-xl"
 						/>
 						<div className="flex space-x-[100px]">
-							<BsFacebook size={100} color="#3b5998" 
+							<BsFacebook size={100} color="#3b5998"
 								className="origin-center -rotate-12 text-facebook rounded-xl"
 							/>
 							<Image

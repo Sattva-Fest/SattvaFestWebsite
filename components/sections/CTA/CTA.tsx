@@ -3,6 +3,10 @@ import { twMerge } from "tailwind-merge";
 
 import { Section } from "../../Section";
 import { Container } from "../../Container";
+import Image from "next/image";
+import { FaYoutube } from "react-icons/fa";
+import { BsFacebook } from "react-icons/bs";
+import Link from "next/link";
 
 const Pattern = ({ className }: ComponentProps<"svg">) => {
 	return (
@@ -46,13 +50,38 @@ export const CTA = () => {
 						Let&apos;s have fun together
 					</h2>
 					<p className="text-body xl:max-w-[680px]">
-					3 days of excitement you do not want to miss out on…
+						3 days of excitement you do not want to miss out on…
 					</p>
 					<p className="text-body xl:max-w-[680px]">
-					Stay connected with us:
+						Stay connected with us:
 					</p>
 				</div>
-				<div className="flex items-center space-x-4 py-0.5">
+				<div className="mr-8 hidden origin-center rotate-12 flex-col items-center space-y-20 xl:flex">
+					<Link href="https://www.youtube.com/@mpstmessattva1974/streams">
+						<FaYoutube
+							size={100} color="#ff0000"
+							className="origin-center -rotate-12 rounded-xl"
+						/>
+					</Link>
+					<div className="flex space-x-[100px]">
+						<Link href="https://www.facebook.com/sattvafest">
+							<BsFacebook size={100} color="#ffffff"
+								className="origin-center -rotate-12 text-white rounded-xl"
+							/>
+						</Link>
+						<Link href="https://www.instagram.com/sattva.2023/">
+							<Image
+								alt="Instagram logo"
+								className="origin-center -rotate-12"
+								src="/images/igLogo.png"
+								width={100}
+								height={100}
+								loading="eager"
+							/>
+						</Link>
+					</div>
+				</div>
+				{/* <div className="flex items-center space-x-4 py-0.5">
 					<a
 						href="mailto:sattva.dummy@gmail.com"
 						target="_blank"
@@ -75,7 +104,7 @@ export const CTA = () => {
 							/>
 						</svg>
 					</span>
-				</div>
+				</div> */}
 			</Container>
 		</Section>
 	);

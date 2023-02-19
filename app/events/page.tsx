@@ -62,7 +62,6 @@ const WorkPage = async () => {
 
 							There&apos;s something at Sattva for everybody, plus an immensely scintillating Pro-Night adorned by famed artists and celebs!
 						</p>
-						<Smiley className="absolute -top-16 right-0 h-[64px] w-[65px] text-light-cyan md:h-[128px] md:w-[130px] xl:-top-0 xl:right-16 xl:h-[192.2px] xl:w-[196.23px]" />
 					</div>
 				</main>
 			</section>
