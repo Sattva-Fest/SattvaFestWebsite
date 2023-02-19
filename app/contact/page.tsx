@@ -69,7 +69,6 @@ const ContactPage = () => {
 					</div>
 				</main>
 			</section>
-			<CTA />
 		</>
 	);
 };
